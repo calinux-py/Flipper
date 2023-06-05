@@ -1,0 +1,149 @@
+REM This script will run a series of commands meant to seek info to ensure the system is protected
+REM made by CaliNux
+
+
+GUI r
+DELAY 1500
+STRING powershell
+ENTER
+DELAY 2000
+
+STRING "LOCAL ACCOUNT PASSWORD PROTECTION" > $env:userprofile\Desktop\GoodUsbLOG.txt
+ENTER
+DELAY 500
+STRING $account = Get-WmiObject -Class Win32_UserAccount -Filter "Name='$env:USERNAME'"
+ENTER
+DELAY 500
+STRING $requiresPassword = $account.PasswordRequired
+ENTER
+DELAY 500
+STRING if (-not $requiresPassword) {
+ENTER
+STRING "False - please consider adding a local account password for your Windows account!" >> $env:userprofile\Desktop\GoodUsbLOG.txt
+ENTER
+STRING } else {
+ENTER
+STRING $requiresPassword >> $env:userprofile\Desktop\GoodUsbLOG.txt
+ENTER
+STRING }
+ENTER
+DELAY 500
+STRING "FIREWALL STATUS" >> $env:userprofile\Desktop\GoodUsbLOG.txt
+ENTER
+DELAY 500
+STRING Get-NetFirewallProfile | Select-Object Name, Enabled >> $env:userprofile\Desktop\GoodUsbLOG.txt
+ENTER
+DELAY 500
+STRING "WINDOWS HOTFIX + UPDATES" >> $env:userprofile\Desktop\GoodUsbLOG.txt
+ENTER
+DELAY 500
+STRING Get-HotFix >> $env:userprofile\Desktop\GoodUsbLOG.txt
+ENTER
+DELAY 500
+STRING "ANTI-VIRUS PROGRAMS" >> $env:userprofile\Desktop\GoodUsbLOG.txt
+ENTER
+DELAY 500
+STRING Get-WmiObject -Namespace "root/SecurityCenter2" -Class AntiVirusProduct | Select-Object displayName >> $env:userprofile\Desktop\GoodUsbLOG.txt
+ENTER
+DELAY 500
+STRING Get-MpComputerStatus >> $env:userprofile\Desktop\GoodUsbLOG.txt
+ENTER
+DELAY 500
+STRING "ESTABLISHED REMOTE CONNECTIONS" >> $env:userprofile\Desktop\GoodUsbLOG.txt
+ENTER
+DELAY 500
+STRING netstat -n | findstr /i "established" >> $env:userprofile\Desktop\GoodUsbLOG.txt
+ENTER
+DELAY 500
+STRING $openPorts = (netstat -n | findstr /i "established").Count
+ENTER
+STRING "Total open ports: $openPorts" >> $env:userprofile\Desktop\GoodUsbLOG.txt
+ENTER
+DELAY 500
+STRING "RUNNING PROCESSES" >> $env:userprofile\Desktop\GoodUsbLOG.txt
+ENTER
+DELAY 500
+STRING Get-Process >> $env:userprofile\Desktop\GoodUsbLOG.txt
+ENTER
+DELAY 500
+STRING "SCHEDULED TASKS" >> $env:userprofile\Desktop\GoodUsbLOG.txt
+ENTER
+DELAY 500
+STRING Get-ScheduledTask >> $env:userprofile\Desktop\GoodUsbLOG.txt
+ENTER
+DELAY 500
+STRING "SYSTEM ADMINISTRATORS" >> $env:userprofile\Desktop\GoodUsbLOG.txt
+ENTER
+DELAY 500
+STRING Get-LocalGroupMember -Group "Administrators" >> $env:userprofile\Desktop\GoodUsbLOG.txt
+ENTER
+DELAY 1000
+
+STRING $drivers = Get-WmiObject -Class Win32_PnPSignedDriver | Where-Object {$_.DeviceName -ne $null}
+ENTER
+STRING "DRIVERS INFORMATION" >> $env:userprofile\Desktop\GoodUsbLOG.txt
+ENTER
+STRING foreach ($driver in $drivers) {
+ENTER
+STRING $deviceName = $driver.DeviceName
+ENTER
+STRING $driverVersion = $driver.DriverVersion
+ENTER
+STRING $driverDate = $driver.DriverDate
+ENTER
+STRING $isOutdated = $driverDate -lt (Get-Date).AddYears(-1)
+ENTER
+STRING "Device Name: $deviceName" >> $env:userprofile\Desktop\GoodUsbLOG.txt
+ENTER
+STRING "Driver Version: $driverVersion" >> $env:userprofile\Desktop\GoodUsbLOG.txt
+ENTER
+STRING "Driver Date: $driverDate" >> $env:userprofile\Desktop\GoodUsbLOG.txt
+ENTER
+STRING "--------------------------" >> $env:userprofile\Desktop\GoodUsbLOG.txt
+ENTER
+STRING }
+ENTER
+DELAY 1000
+STRING exit
+ENTER
+DELAY 1000
+
+GUI r
+DELAY 500
+STRING mrt
+ENTER
+DELAY 2300
+TAB
+DELAY 400
+TAB
+DELAY 400
+ENTER
+DELAY 800
+
+GUI r
+DELAY 2500
+STRING notepad
+ENTER
+DELAY 1000
+STRING GoodUSB Scan complete. Check results at GoodUsbLOG.txt on your desktop. 
+ENTER
+STRING Please run Windows Malware Removal Tool to complete the process. 
+ENTER 
+STRING Run a FULL SCAN if running for the first time.
+ENTER
+DELAY 500
+ENTER
+DELAY 500
+ENTER
+ENTER
+STRING Signed,
+ENTER
+ENTER
+DELAY 500
+STRING CaliNux
+ENTER
+ENTER
+DELAY 8000
+
+
+REM thanks for using and stuff

