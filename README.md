@@ -14,7 +14,7 @@ _______________________________________________________________
 
 New Admin - creates a new admin account with whatever username and password you provide
 
-open-ports - scans all open remote ports and provides list in a .txt file in users temp directory
+open-ports - scans all open remote ports and provides list in a .txt file in users temp directory. The script will then send this .txt file to whatever discord webhook you enter.
 
 sysgrab_WIN - grabs basic system information from Windows and uploads it to Discord using webhook
 
