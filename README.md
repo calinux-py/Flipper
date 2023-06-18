@@ -20,5 +20,5 @@ sysgrab_WIN - grabs basic system information from Windows and uploads it to Disc
 
 wifi switch evil-twin - creates a new network profile with whatever SSID, password, and encryption type you prefer
 
-wifi-grab (current) - grabs the users current wifi SSID and password and amends to .txt file in users temp directory
+wifi-grab (current) - grabs the users current wifi SSID and password and amends to .txt file in users temp directory. The script will then sent this .txt file to a Discord webhook of your choosing.
 
