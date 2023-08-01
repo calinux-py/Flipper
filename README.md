@@ -22,3 +22,5 @@ wifi switch evil-twin - creates a new network profile with whatever SSID, passwo
 
 wifi-grab (current) - grabs the users current wifi SSID and password and amends to .txt file in users temp directory. The script will then sent this .txt file to a Discord webhook of your choosing.
 
+Email-Info-Grab - this will open the users default browser and navigate to the personal info page of the users Gmail account. Then script then takes a screenshot and uploads this screenshot to a Discord webhook of your choosing.
+
