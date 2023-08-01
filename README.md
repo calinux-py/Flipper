@@ -24,3 +24,4 @@ wifi-grab (current) - grabs the users current wifi SSID and password and amends 
 
 Email-Info-Grab - this will open the users default browser and navigate to the personal info page of the users Gmail account. Then script then takes a screenshot and uploads this screenshot to a Discord webhook of your choosing.
 
+BasicRecon - this script will grab the geolocation, public/private IP address, country, city, ISP, long/lat, subnet, dns, gateway, users on the system, firewall status, which antivirus exist, SSIDs and passwords, all system information, proccesses, and finally retrieves all application info
