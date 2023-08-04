@@ -27,3 +27,5 @@ Email-Info-Grab - this will open the users default browser and navigate to the p
 BasicRecon - this script will grab the geolocation, public/private IP address, country, city, ISP, long/lat, subnet, dns, gateway, users on the system, firewall status, which antivirus exist, SSIDs and passwords, all system information, proccesses, and finally retrieves all application info
 
 Overlay Ransom - Downloads python, pip, and PIL module. Displays an image overlay the users computer and disables super commands, esc, alt+f4, and changing windows. super basic and could easily be defeated. Default password is pass. use at own risk.
+
+AdvEmailGrab - takes a screenshot of the most sensitive default gmail info profile pages and uploads them to discord via webhook. this includes email address, phone number, address, devices, etc.
