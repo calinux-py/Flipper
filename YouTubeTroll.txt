@@ -1,5 +1,5 @@
 REM this script downloads an encoded Base64 file using irm and then decodes it then executes
-
+REM Thanks to Redd for his help with certutil <3
 DELAY 2000
 GUI r
 DELAY 1000
