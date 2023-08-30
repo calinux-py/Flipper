@@ -1,4 +1,6 @@
 REM default password is "pass" - downloaded Base64 encoded powershell script which initiates overlay attack python script
+REM thank you to Redd for assistance with certutil <3
+
 DELAY 1000
 GUI r
 DELAY 1000
