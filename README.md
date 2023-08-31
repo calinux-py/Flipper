@@ -31,3 +31,5 @@ Overlay Ransom - Downloads python, pip, and PIL module. Displays an image overla
 AdvEmailGrab - takes a screenshot of the most sensitive default gmail info profile pages and uploads them to discord via webhook. this includes email address, phone number, address, devices, etc.
 
 Discord DM&Channel Cap - takes a screenshot of DMs and channels of users discord and uploads them via webhook.
+
+Get-Geo-Discord - grabs geolocation, hostname, and isp from user and uploads to discord via webhook.
