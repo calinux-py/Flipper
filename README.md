@@ -1,7 +1,4 @@
 # Flipper - Automation & Security Scripts
-
-![Flipper Logo](https://path/to/flipper-logo.png)
-
 **Creator**: CaliNux  
 **Date**: 6/5/2023  
 **Programming Language**: Ducky Script  
