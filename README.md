@@ -13,7 +13,6 @@
     - [Social Engineering](#social-engineering)
 - [Disclaimer](#disclaimer)
 - [Contribution](#contribution)
-- [Contact](#contact)
 
 ## 📜 Introduction
 
