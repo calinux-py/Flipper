@@ -1,35 +1,59 @@
-# Flipper
-Flipper Scripts
+# Flipper - Automation & Security Scripts
 
-Creator: CaliNux
-Date: 6/5/2023
-Programming Language: Ducky Script
-OS: Windows
+![Flipper Logo](https://path/to/flipper-logo.png)
 
-_______________________________________________________________
+**Creator**: CaliNux  
+**Date**: 6/5/2023  
+**Programming Language**: Ducky Script  
+**Operating System**: Windows  
 
-!GoodUSB - Performs vulnerability scan and prints results to users desktop before running Windows MRT feature
+## 📌 Table of Contents
+- [Introduction](#introduction)
+- [Scripts](#scripts)
+    - [Security Scanners](#security-scanners)
+    - [System Manipulation](#system-manipulation)
+    - [Information Retrieval](#information-retrieval)
+    - [Social Engineering](#social-engineering)
+- [Disclaimer](#disclaimer)
+- [Contribution](#contribution)
+- [Contact](#contact)
 
-!Weaken - Disables key Windows protection features such as firewall
+## 📜 Introduction
 
-New Admin - creates a new admin account with whatever username and password you provide
+Flipper is a collection of utility scripts designed to automate various tasks on Windows operating systems. Each script is written in Ducky Script and serves a specific purpose.
 
-open-ports - scans all open remote ports and provides list in a .txt file in users temp directory. The script will then send this .txt file to whatever discord webhook you enter.
+---
 
-sysgrab_WIN - grabs basic system information from Windows and uploads it to Discord using webhook
+## 📜 Scripts
 
-wifi switch evil-twin - creates a new network profile with whatever SSID, password, and encryption type you prefer
+### Security Scanners
+- **!GoodUSB**: Performs vulnerability scans and prints results to the user's desktop before running the Windows MRT feature.
 
-wifi-grab (current) - grabs the users current wifi SSID and password and amends to .txt file in users temp directory. The script will then sent this .txt file to a Discord webhook of your choosing.
+### System Manipulation
+- **!Weaken**: Disables key Windows protection features, such as the firewall.
+- **New Admin**: Creates a new admin account with a username and password of your choice.
+- **Overlay Ransom**: Downloads Python, pip, and PIL module. Displays an image overlay on the user's computer and disables certain key commands.
 
-Email-Info-Grab - this will open the users default browser and navigate to the personal info page of the users Gmail account. Then script then takes a screenshot and uploads this screenshot to a Discord webhook of your choosing.
+### Information Retrieval
+- **open-ports**: Scans all open remote ports and saves them in a .txt file. The script then sends this .txt file to a Discord webhook.
+- **sysgrab_WIN**: Grabs basic system information from Windows and uploads it to Discord using a webhook.
+- **BasicRecon**: Retrieves extensive system information including geolocation, public/private IP address, and more.
+- **Get-Geo-Discord**: Grabs geolocation, hostname, and ISP information from the user and uploads it to a Discord webhook.
 
-BasicRecon - this script will grab the geolocation, public/private IP address, country, city, ISP, long/lat, subnet, dns, gateway, users on the system, firewall status, which antivirus exist, SSIDs and passwords, all system information, proccesses, and finally retrieves all application info
+### Social Engineering
+- **wifi switch evil-twin**: Creates a new network profile with your preferred SSID, password, and encryption type.
+- **Email-Info-Grab**: Navigates to the personal info page of the user's Gmail account, takes a screenshot, and uploads it to a Discord webhook.
+- **AdvEmailGrab**: Captures sensitive Gmail information and uploads it to Discord via a webhook.
+- **Discord DM&Channel Cap**: Captures screenshots of a user's Discord DMs and channels, then uploads them via a webhook.
+- **Encrypt/Decrypt Discord**: Encrypts or Decrypts an entire directory and sends the decryption key to a Discord webhook.
 
-Overlay Ransom - Downloads python, pip, and PIL module. Displays an image overlay the users computer and disables super commands, esc, alt+f4, and changing windows. super basic and could easily be defeated. Default password is pass. use at own risk.
+---
 
-AdvEmailGrab - takes a screenshot of the most sensitive default gmail info profile pages and uploads them to discord via webhook. this includes email address, phone number, address, devices, etc.
+## ⚠️ Disclaimer
 
-Discord DM&Channel Cap - takes a screenshot of DMs and channels of users discord and uploads them via webhook.
+These scripts are intended for educational and ethical use only. Unauthorized access to computer systems is illegal and punishable by law.
 
-Get-Geo-Discord - grabs geolocation, hostname, and isp from user and uploads to discord via webhook.
+## 🤝 Contribution
+
+Feel free to contribute to this project by submitting pull requests or issues.
+
