@@ -29,6 +29,7 @@ Flipper is a collection of utility scripts designed to automate various tasks on
 - **!Weaken**: Disables key Windows protection features, such as the firewall.
 - **New Admin**: Creates a new admin account with a username and password of your choice.
 - **Overlay Ransom**: Downloads Python, pip, and PIL module. Displays an image overlay on the user's computer and disables certain key commands.
+-**SmashMouthTroll**: Creates unclosabled Smash Mouth troll popup windows.
 
 ### Information Retrieval
 - **open-ports**: Scans all open remote ports and saves them in a .txt file. The script then sends this .txt file to a Discord webhook.
