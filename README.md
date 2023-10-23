@@ -37,6 +37,7 @@ Flipper is a collection of utility scripts designed to automate various tasks on
 - **BasicRecon**: Retrieves extensive system information including geolocation, public/private IP address, and more.
 - **Get-Geo-Discord**: Grabs geolocation, hostname, and ISP information from the user and uploads it to a Discord webhook.
 - **Get-Pic**: Takes a picture using the integrated webcam and uploads pics to Discord webhook along with private/public/gateway IP and hostname.
+- **EmailPwn**: Grants access to a users default Google Drive by passing email as argument
 
 ### Social Engineering
 - **wifi switch evil-twin**: Creates a new network profile with your preferred SSID, password, and encryption type.
