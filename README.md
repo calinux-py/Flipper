@@ -28,6 +28,7 @@ Flipper is a collection of utility scripts designed to automate various tasks on
 - **WiltSys**: Disables key Windows protection features, such as the firewall.
 - **New Admin**: Creates a new admin account with a username and password of your choice.
 - **[Base64]Overlay Attack**: The script downloads a base64-encoded PowerShell script, which, when executed, retrieves and installs Python, pip, and the PIL module. Additionally, it displays an image overlay on the user's computer and disables specific key commands. Default Password is 'pass'.
+- **[M.E. Base64]Overlay Attack**: Enhanced Fileless Memory Execution: Base64-Encoded Version of the "Overlay Attack" Ducky Script – The script downloads a base64-encoded PowerShell script, which, when executed, retrieves and installs Python, pip, and the PIL module. Additionally, it displays an image overlay on the user's computer and disables specific key commands. Default Password is 'pass'.
 - **SmashMouthTroll**: Creates unclosabled Smash Mouth troll popup windows.
 -**Get-ProductKey**: Retrieves the Windows Product Key from the system on which the script is executed.
 - **open-ports**: Scans all open remote ports and saves them in a .txt file. The script then sends this .txt file to a Discord webhook.
@@ -35,7 +36,7 @@ Flipper is a collection of utility scripts designed to automate various tasks on
 - **BasicRecon**: Retrieves extensive system information including geolocation, public/private IP address, and more.
 - **Get-Geo-Discord**: Grabs geolocation, hostname, and ISP information from the user and uploads it to a Discord webhook.
 - **Get-Pic**: Takes a picture using the integrated webcam and uploads pics to Discord webhook along with private/public/gateway IP and hostname.
-- **[M.E. Base64]Get-Pic**:Fileless Memory Execution: Base64-Encoded Version of the "Get-Pic Ducky" Script – Captures images via the target's webcam and uploads them to Discord.
+- **[M.E. Base64]Get-Pic**:Fileless Memory Execution: Base64-Encoded Version of the "Get-Pic" Ducky Script – Captures images via the target's webcam and uploads them to Discord.
 - **DrivePwn**: Grants access to a users default Google Drive by passing email as argument
 
 - **wifi switch evil-twin**: Creates a new network profile with your preferred SSID, password, and encryption type.
