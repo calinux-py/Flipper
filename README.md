@@ -16,7 +16,7 @@
 
 ## 📜 Introduction
 
-Flipper is a collection of utility scripts designed to automate various tasks on Windows operating systems. Each script is written in Ducky Script and serves a specific purpose.
+Flipper is a collection of Ducky scripts tailored for automating a myriad of tasks on Windows operating systems. Each script has a distinct function and purpose. Some scripts utilize `Invoke-RestMethod` (irm) to fetch raw PowerShell scripts directly from GitHub. Others employ Memory Execution techniques, allowing for direct execution without downloading a physical file—instead, they run based on a string within a PowerShell script. Additionally, certain scripts are encoded in base64 for enhanced functionality or security.
 
 ---
 
