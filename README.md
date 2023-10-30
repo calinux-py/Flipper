@@ -26,7 +26,7 @@ Flipper is a collection of utility scripts designed to automate various tasks on
 - **!GoodUSB**: Performs vulnerability scans and prints results to the user's desktop before running the Windows MRT feature.
 
 ### System Manipulation
-- **!Weaken**: Disables key Windows protection features, such as the firewall.
+- **WiltSys**: Disables key Windows protection features, such as the firewall.
 - **New Admin**: Creates a new admin account with a username and password of your choice.
 - **Overlay Ransom**: Downloads Python, pip, and PIL module. Displays an image overlay on the user's computer and disables certain key commands.
 - -**SmashMouthTroll**: Creates unclosabled Smash Mouth troll popup windows.
