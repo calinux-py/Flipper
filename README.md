@@ -43,7 +43,7 @@ Flipper is a collection of utility scripts designed to automate various tasks on
 - **DrivePwn**: Grants access to a users default Google Drive by passing email as argument.
 - **[Base64]YouTubeTroll**: Downloads Base64 encoded PowerShell script, decodes, and executes it. The script opens the user's default browser and executes a Troll YouTube video.
 -**[M.E. Base64]YouTubeTroll**: Fileless Memory Execution: Base64-Encoded Version of the "Overlay Attack" Ducky Script – The script downloads a base64-encoded PowerShell script, which, when executed, opens a YouTube troll video using the user default browser.
-- **wifi switch evil-twin**: Creates a new network profile with your preferred SSID, password, and encryption type.
+- **Inject-EvilTwin**: Creates a new network profile with your preferred SSID, password, and encryption type.
 - **Email-Info-Grab**: Navigates to the personal info page of the user's Gmail account, takes a screenshot, and uploads it to a Discord webhook.
 - **AdvEmailGrab**: Captures sensitive Gmail information and uploads it to Discord via a webhook.
 - **Discord DM&Channel Cap**: Captures screenshots of a user's Discord DMs and channels, then uploads them via a webhook.
