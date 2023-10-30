@@ -40,7 +40,8 @@ Flipper is a collection of utility scripts designed to automate various tasks on
 - **Get-Geo-Discord**: Grabs geolocation, hostname, and ISP information from the user and uploads it to a Discord webhook.
 - **Get-Pic**: Takes a picture using the integrated webcam and uploads pics to Discord webhook along with private/public/gateway IP and hostname.
 - **[M.E. Base64]Get-Pic**:Fileless Memory Execution: Base64-Encoded Version of the "Get-Pic" Ducky Script – Captures images via the target's webcam and uploads them to Discord.
-- **DrivePwn**: Grants access to a users default Google Drive by passing email as argument
+- **DrivePwn**: Grants access to a users default Google Drive by passing email as argument.
+- **[Base64]YouTubeTroll**: Downloads Base64 encoded PowerShell script, decodes, and executes it. The script opens the user's default browser and executes a Troll YouTube video.
 -**[M.E. Base64]YouTubeTroll**: Fileless Memory Execution: Base64-Encoded Version of the "Overlay Attack" Ducky Script – The script downloads a base64-encoded PowerShell script, which, when executed, opens a YouTube troll video using the user default browser.
 - **wifi switch evil-twin**: Creates a new network profile with your preferred SSID, password, and encryption type.
 - **Email-Info-Grab**: Navigates to the personal info page of the user's Gmail account, takes a screenshot, and uploads it to a Discord webhook.
