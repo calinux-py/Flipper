@@ -23,7 +23,7 @@ Flipper is a collection of utility scripts designed to automate various tasks on
 ## 📜 Scripts
 
 ### Security Scanners
-- **!GoodUSB**: Performs vulnerability scans and prints results to the user's desktop before running the Windows MRT feature.
+- **GoodUSB**: Performs vulnerability scans and prints results to the user's desktop before running the Windows MRT feature.
 
 ### System Manipulation
 - **WiltSys**: Disables key Windows protection features, such as the firewall.
