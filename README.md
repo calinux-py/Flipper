@@ -27,6 +27,7 @@ Flipper is a collection of utility scripts designed to automate various tasks on
 
 - **WiltSys**: Disables key Windows protection features, such as the firewall.
 - **New Admin**: Creates a new admin account with a username and password of your choice.
+- **OverlayAttack**: The script downloads a PowerShell script, which, when executed, retrieves and installs Python, pip, and the PIL module. Additionally, it displays an image overlay on the user's computer and disables specific key commands. Default Password is 'pass'.
 - **[Base64]Overlay Attack**: The script downloads a base64-encoded PowerShell script, which, when executed, retrieves and installs Python, pip, and the PIL module. Additionally, it displays an image overlay on the user's computer and disables specific key commands. Default Password is 'pass'.
 - **[M.E. Base64]Overlay Attack**: Fileless Memory Execution: Base64-Encoded Version of the "Overlay Attack" Ducky Script – The script downloads a base64-encoded PowerShell script, which, when executed, retrieves and installs Python, pip, and the PIL module. Additionally, it displays an image overlay on the user's computer and disables specific key commands. Default Password is 'pass'.
 - **SmashMouthTroll**: Creates unclosabled Smash Mouth troll popup windows.
