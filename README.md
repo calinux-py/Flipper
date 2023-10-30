@@ -32,6 +32,7 @@ Flipper is a collection of utility scripts designed to automate various tasks on
 - **[M.E. Base64]Overlay Attack**: Fileless Memory Execution: Base64-Encoded Version of the "Overlay Attack" Ducky Script – The script downloads a base64-encoded PowerShell script, which, when executed, retrieves and installs Python, pip, and the PIL module. Additionally, it displays an image overlay on the user's computer and disables specific key commands. Default Password is 'pass'.
 - **SmashMouthTroll**: Creates unclosabled Smash Mouth troll popup windows.
 
+-**WifiBruteforcePY**: Attempts to bruteforce SSID passed by user using Python.
 -**Get-ProductKey**: Retrieves the Windows Product Key from the system on which the script is executed.
 - **open-ports**: Scans all open remote ports and saves them in a .txt file. The script then sends this .txt file to a Discord webhook.
 - **sysgrab_WIN**: Grabs basic system information from Windows and uploads it to Discord using a webhook.
