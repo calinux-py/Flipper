@@ -28,8 +28,8 @@ Flipper is a collection of utility scripts designed to automate various tasks on
 - **WiltSys**: Disables key Windows protection features, such as the firewall.
 - **New Admin**: Creates a new admin account with a username and password of your choice.
 - **[Base64]Overlay Attack**: The script downloads a base64-encoded PowerShell script, which, when executed, retrieves and installs Python, pip, and the PIL module. Additionally, it displays an image overlay on the user's computer and disables specific key commands. Default Password is 'pass'.
-- -**SmashMouthTroll**: Creates unclosabled Smash Mouth troll popup windows.
-
+- **SmashMouthTroll**: Creates unclosabled Smash Mouth troll popup windows.
+-**Get-ProductKey**: Retrieves the Windows Product Key from the system on which the script is executed.
 - **open-ports**: Scans all open remote ports and saves them in a .txt file. The script then sends this .txt file to a Discord webhook.
 - **sysgrab_WIN**: Grabs basic system information from Windows and uploads it to Discord using a webhook.
 - **BasicRecon**: Retrieves extensive system information including geolocation, public/private IP address, and more.
