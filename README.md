@@ -34,7 +34,7 @@ Flipper is a collection of utility scripts designed to automate various tasks on
 
 -**WifiBruteforcePY**: Attempts to bruteforce SSID passed by user using Python.
 -**Get-ProductKey**: Retrieves the Windows Product Key from the system on which the script is executed.
-- **open-ports**: Scans all open remote ports and saves them in a .txt file. The script then sends this .txt file to a Discord webhook.
+- **ScanPorts**: Scans all open remote ports and saves them in a .txt file. The script then sends this .txt file to a Discord webhook.
 - **sysgrab_WIN**: Grabs basic system information from Windows and uploads it to Discord using a webhook.
 - **BasicRecon**: Retrieves extensive system information including geolocation, public/private IP address, and more.
 - **Get-Geo-Discord**: Grabs geolocation, hostname, and ISP information from the user and uploads it to a Discord webhook.
