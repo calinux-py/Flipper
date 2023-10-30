@@ -38,7 +38,7 @@ Flipper is a collection of Ducky scripts tailored for automating a myriad of tas
 - **Get-ProductKey**: Retrieves the Windows Product Key from the system on which the script is executed.
 - **SysGrab-Win**: Grabs basic system information from Windows and uploads it to Discord using a webhook.
 - **BasicRecon**: Retrieves extensive system information including geolocation, public/private IP address, and more.
-- **Get-Geo-Discord**: Grabs geolocation, hostname, and ISP information from the user and uploads it to a Discord webhook.
+- **Get-Geo**: Grabs geolocation, hostname, and ISP information from the user and uploads it to a Discord webhook.
 - **Get-Pic**: Takes a picture using the integrated webcam and uploads pics to Discord webhook along with private/public/gateway IP and hostname.
 - **[M.E. Base64]Get-Pic**:Fileless Memory Execution: Base64-Encoded Version of the "Get-Pic" Ducky Script.
   
