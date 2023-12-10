@@ -34,6 +34,7 @@ Flipper is a collection of Ducky scripts tailored for automating a myriad of tas
 - **[M.E. Base64]Overlay Attack**: Fileless Memory Execution: Base64-Encoded Version of the "Overlay Attack" Ducky Script.
 - **Inject-EvilTwin**: Creates a new network profile with your preferred SSID, password, and encryption type.
 - **[M.E. Base64]DisableUAC**: Remote fileless memory execution script which disables Windows UAC.
+- **MemeDecryption**: Uses custom decryption algo to decrypt file encrypted with "meme" encryption
 
 ### Information Retrieval
 - **Get-ProductKey**: Retrieves the Windows Product Key from the system on which the script is executed.
