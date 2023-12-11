@@ -35,7 +35,7 @@ Flipper is a collection of Ducky scripts tailored for automating a myriad of tas
 - **Inject-EvilTwin**: Creates a new network profile with your preferred SSID, password, and encryption type.
 - **[M.E. Base64]DisableUAC**: Remote fileless memory execution script which disables Windows UAC.
 - **MemeDecryption**: Uses custom decryption algo to decrypt file encrypted with "meme" encryption
-- **[M.E. Base64]Ace-Ventura-Overlay-Ransom: Forces the target to watch Ace Ventura When Nature Calls while it trolls them with messages.
+- **[M.E. Base64]Ace-Ventura-Overlay-Ransom**: Forces the target to watch Ace Ventura When Nature Calls while it trolls them with messages.
 
 ### Information Retrieval
 - **Get-ProductKey**: Retrieves the Windows Product Key from the system on which the script is executed.
