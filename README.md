@@ -44,6 +44,7 @@ Flipper is a collection of Ducky scripts tailored for automating a myriad of tas
 - **Get-Geo**: Grabs geolocation, hostname, and ISP information from the user and uploads it to a Discord webhook.
 - **Get-Pic**: Takes a picture using the integrated webcam and uploads pics to Discord webhook along with private/public/gateway IP and hostname.
 - **[M.E. Base64]Get-Pic**:Fileless Memory Execution: Base64-Encoded Version of the "Get-Pic" Ducky Script.
+- **[M.E. Base64]Get-PublicIP**:Fileless Memory Execution: Base64-Encoded script which fetches users public IP address.
 - **[M.E. Base64]Mother Of All Recons**: Fileless Memory Execution: Base64-Encoded: MOAR is a PowerShell script built to gather an extensive amount of information about a Windows system. This includes but is not limited to, system configurations, network details, browsing history, recently accessed files, and much more. It will then upload this information to a Discord Webhook passed to it.
   
 ### Social Engineering
