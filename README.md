@@ -63,7 +63,3 @@ Flipper is a collection of Ducky scripts tailored for automating a myriad of tas
 ## ⚠️ Disclaimer
 
 These scripts are intended for educational and ethical use only. Unauthorized access to computer systems is illegal and punishable by law.
-
-## 🤝 Contribution
-
-Feel free to contribute to this project by submitting pull requests or issues.
