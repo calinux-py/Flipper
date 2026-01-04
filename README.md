@@ -5,7 +5,10 @@
 **Programming Language**: Ducky Script  
 **Operating System**: Windows
 
-2026 NOTE: Several of these scripts are outdated or rely on shortened links that are no longer supported. It is very easy to update them to work today. For shortened URLs, try OwlURL.com instead of tinyurl or T.ly
+## 2026 NOTE
+```
+Several of these scripts are outdated or rely on shortened links that are no longer supported. It is very easy to update them to work today. The concepts which can be learned from these scripts are still applicable today such as obfuscating via Base64, memory executions, and using LoTL style commands. For shortened URLs, try OwlURL.com instead of tinyurl or T.ly
+```
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
