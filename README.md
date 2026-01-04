@@ -1,9 +1,11 @@
 # Flipper - Automation & Security Scripts
 **Creator**: CaliNux  
-**Date**: 6/5/2023-Present
+**Date**: 6/5/2023-2024
 
 **Programming Language**: Ducky Script  
 **Operating System**: Windows
+
+2026 NOTE: Several of these scripts are outdated or rely on shortened links that are no longer supported. It is very easy to update them to work today. For shortened URLs, try OwlURL.com instead of tinyurl or T.ly
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
